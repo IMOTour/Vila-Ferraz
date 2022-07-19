@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-frt-door">
+        <li class="text">Frt door</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-hall">
+        <li class="text">Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-bedroom-1">
+        <li class="text">Bedroom 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-wc1">
+        <li class="text">Wc1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-bedroom-2">
+        <li class="text">Bedroom 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-wc2">
+        <li class="text">Wc2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-corridor-1">
+        <li class="text">Corridor 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-bedroom-3">
+        <li class="text">Bedroom 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-wc3">
+        <li class="text">Wc3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-corridor-2">
+        <li class="text">Corridor 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-service-entrandce">
+        <li class="text">Service entrandce</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-service-entrance-out">
+        <li class="text">Service entrance out</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-basement-1">
+        <li class="text">Basement 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-basement-2">
+        <li class="text">Basement 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-basemente-wc">
+        <li class="text">Basemente wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-basemente-wc-2">
+        <li class="text">Basemente wc 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-game-room">
+        <li class="text">Game room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-wine-cellar">
+        <li class="text">Wine cellar</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-corridor-3">
+        <li class="text">Corridor 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-wc-corridor">
+        <li class="text">Wc corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-dinning-room-corridor">
+        <li class="text">Dinning room corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-dinning-room-entrance">
+        <li class="text">Dinning room entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-dinning-room-close">
+        <li class="text">Dinning room close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-dinning-room-windows">
+        <li class="text">Dinning room windows</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-dinning-room-far">
+        <li class="text">Dinning room far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-kitchen-close">
+        <li class="text">Kitchen close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-kitchen-far">
+        <li class="text">Kitchen far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-mid-stairs">
+        <li class="text">Mid stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-1st-floor-landing">
+        <li class="text">1st floor landing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-bedroom-4">
+        <li class="text">Bedroom 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-wc-4">
+        <li class="text">Wc 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-corridor-bd5">
+        <li class="text">Corridor bd5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-entrance-bd5">
+        <li class="text">Entrance bd5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-bedroom-5">
+        <li class="text">Bedroom 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-wc5">
+        <li class="text">Wc5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-bedroom-6">
+        <li class="text">Bedroom 6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-wc6">
+        <li class="text">Wc6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-bedroom-7">
+        <li class="text">Bedroom 7</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-steps-2nd-floor">
+        <li class="text">Steps 2nd floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-2nd-floor-landing">
+        <li class="text">2nd floor landing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-2nd-floor-sitting--kitchen">
+        <li class="text">2nd floor sitting / kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-2nd-floor-bedroom">
+        <li class="text">2nd floor bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-2nd-floor-wc">
+        <li class="text">2nd floor wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-front---right---side">
+        <li class="text">Front - right - side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-front---left---side">
+        <li class="text">Front - left - side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-duck-pond">
+        <li class="text">Duck pond</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-corner-bandstand">
+        <li class="text">Corner bandstand</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-house---far-away">
+        <li class="text">House - far away</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-main-gate">
+        <li class="text">Main gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-main-entrance">
+        <li class="text">Main entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-corner-bandstand-2">
+        <li class="text">Corner bandstand 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-side-view">
+        <li class="text">Side view</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-side-entrance">
+        <li class="text">Side entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-laundry">
+        <li class="text">Laundry</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-garage-1">
+        <li class="text">Garage 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-garage-2">
+        <li class="text">Garage 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-swimming-pool-wc">
+        <li class="text">Swimming pool wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-swimming-pool-wc-2">
+        <li class="text">Swimming pool wc 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-swimming-pool-shower">
+        <li class="text">Swimming pool shower</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-swimming-pool">
+        <li class="text">Swimming pool</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-rear-patio">
+        <li class="text">Rear patio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-rear-patio-far">
+        <li class="text">Rear patio far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-worker-house">
+        <li class="text">Worker house</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-worker-wc">
+        <li class="text">Worker wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-rear-patio-end">
+        <li class="text">Rear patio end</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-exterior-kitchen">
+        <li class="text">Exterior kitchen</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
